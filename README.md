@@ -14,8 +14,6 @@ git clone git@github.com:kilian-le-calvez/nest-starter-kit.git
 cd nest-starter-kit
 ```
 
-````
-
 ### 2. Install dependencies
 
 ```bash
@@ -177,4 +175,3 @@ Please make sure to follow the existing code style and add necessary tests.
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-````
