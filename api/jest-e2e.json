@@ -1,0 +1,26 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "tsconfig.json"
+    }
+  },
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "./",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "setupFiles": ["dotenv/config"],
+  "collectCoverage": false,
+  "coverageDirectory": "./coverage",
+  "coverageProvider": "v8",
+  "moduleNameMapper": {
+    "^@common/(.*)$": "<rootDir>/src/common/$1",
+    "^@user/(.*)$": "<rootDir>/src/user/$1",
+    "^@auth/(.*)$": "<rootDir>/src/auth/$1",
+    "^@prisma-api/(.*)$": "<rootDir>/src/prisma/$1",
+    "^@app/(.*)$": "<rootDir>/src/app/$1"
+  }
+}
