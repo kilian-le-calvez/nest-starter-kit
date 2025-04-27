@@ -57,7 +57,7 @@ async function bootstrap() {
 
   // Swagger setup
   const config = new DocumentBuilder()
-    .setTitle('Nest Start Kit API')
+    .setTitle('Nest Starter Kit API')
     .setDescription('Auth and user system')
     .setVersion('1.0')
     .addBearerAuth()
